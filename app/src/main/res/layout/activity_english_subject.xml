@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    tools:context=".EnglishSubjectActivity">
+
+    <GridView
+        android:id="@+id/grid_english_subject_item"
+        android:layout_marginTop="20dp"
+        android:numColumns="2"
+        android:backgroundTint="#00DFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

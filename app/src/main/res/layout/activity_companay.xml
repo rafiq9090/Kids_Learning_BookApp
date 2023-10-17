@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CompanayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#C1000000"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/company_logo_black" />
+
+            <TextView
+                android:text="Appnotrix"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="
+Let's talk about everything."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:lineHeight="25dp"
+                android:justificationMode="inter_word"
+                android:text="
+Appnotrix is a software development company currently specialising in Mobile applications development in the App Store. Appnotrix develops and manages mobile applications on the iOS App Store. We also provide development services.
+
+All payments, subscriptions and refunds on the App Store are managed by Apple. Apple is responsible for all purchases made in the App Store, and developers like us cannot provide billing information or refunds on their behalf.
+
+To cancel a subscription, open Settings on your device and tap your name/Apple ID at the top. Here you can view your active and expired subscriptions, and they can be managed from this menu. Refunds can be requested by tapping the “Report a Problem” button in the receipt email provided by Apple. We cannot issue or provide any billing or payment requests; this is all managed by Apple.
+
+For any other questions, please get in touch with us by email at support@appnotrix.com."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

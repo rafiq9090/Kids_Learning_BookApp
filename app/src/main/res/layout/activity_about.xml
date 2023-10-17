@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#4A24FF00"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<TextView
+    android:textAlignment="center"
+    android:text="verson:1.0.1"
+    android:textColor="#514E4E"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000033"
+        android:lineHeight="28dp"
+        android:text="Fun and educational games for toddlers to help teach colors, shapes, coordination, motor skills, memory, and more!Learning is easy and fun with this collection of free games for kids.Have you ever wanted to teach your toddler, kindergarten, or preschool-aged child things like number recognition, logic,shape identification, counting,or the alphabet? Kids learn better when theresplay involved, and this collection of free games for kids is the perfect place to start. It's filled with pre-K activities,mini educational games for toddlers, brain games for kids, and so much more!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    android:orientation="vertical"
+
+    tools:context=".DashboardActivity">
+
+
+<LinearLayout
+    android:background="@drawable/backimage"
+    android:id="@+id/full_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!--    <soup.neumorphism.NeumorphImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/app_icon"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:letterSpacing=".2"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <GridView
+        android:id="@+id/list_item"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:numColumns="2"
+        android:backgroundTint="#00DFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+<!--  <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:id="@+id/draPaint"-->
+<!--      android:layout_alignParentRight="true"-->
+<!--      android:src="@drawable/ic_baseline_create_24"-->
+<!--      android:backgroundTint="#FF9800"-->
+<!--      android:layout_alignParentBottom="true"-->
+<!--      android:layout_marginBottom="20dp"-->
+<!--      android:layout_marginRight="20dp"-->
+<!--      android:layout_height="wrap_content"/>-->
+
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:visibility="gone"
+       android:id="@+id/drawerlayout"
+        tools:openDrawer="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.navigation.NavigationView
+            android:layout_below="@+id/full_content"
+            android:layout_width="match_parent"
+            app:headerLayout="@layout/dra_profile"
+            app:menu="@menu/drawer_item"
+
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:id="@+id/navigation"
+            />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</RelativeLayout>

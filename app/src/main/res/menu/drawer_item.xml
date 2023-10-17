@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+
+        android:checkableBehavior="none"
+        >
+
+        <item
+            android:id="@+id/d_company"
+            android:title="Company"/>
+        <item
+            android:id="@+id/d_developer"
+            android:title="Developer"/>
+    </group>
+
+    <item
+        android:title="Apps"
+        >
+        <menu>
+            <item
+                android:id="@+id/d_exit"
+                android:title="Exit">
+
+            </item>
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>

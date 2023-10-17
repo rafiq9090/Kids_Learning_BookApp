@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/all_bg"
+    android:layout_height="match_parent"
+    tools:context=".DoaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="#97FFFFFF"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--        বাবা-মা, বড়-ছোট সকলকে সালাম করবো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="বাবা-মা, বড়-ছোট সকলকে সালাম করবো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- আসসালামু ‘আলাইকুম"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- আপনার উপর শান্তি বর্ষিত হোক।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--        বাবা-মা, বড়-ছোট সকলকে সালাম করবো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="কেউ সালাম করলে জবাবে বলবো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- ওয়া আলাইকুমুস সালাম, ওয়া রাহমাতুল্লাহি, ওয়া বারাকাতুহু"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- অর্থ আপনার উপরও আল্লাহ তায়ালার পক্ষ হতে শান্তি ও রহমত বর্ষিত হোক।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--        মুসাফাহ বলে- দুইজন মুসলমান ভাই সালামের পর হাত মিলানো । এই সময় এই দু'আ পড়বো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="মুসাফাহ বলে- দুইজন মুসলমান ভাই সালামের পর হাত মিলানো । এই সময় এই দু'আ পড়বো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="يَغْفِرُ اللَّهُ لَنَا وَلَكُمُْ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- ইয়াগফিরুল্লাহু লানা ওয়া লাকুম।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- মহান আল্লাহ আপনাদের ও আমাদের ক্ষমা করুন’। "/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--মু‘আনাক্বাহ বলে- দুইজন মুসলমান একে অপরের সাথে কুলাকুলি করা। এসময় এই দু'আ পড়বো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="মু‘আনাক্বাহ বলে- দুইজন মুসলমান একে অপরের সাথে কুলাকুলি করা। এসময় এই দু'আ পড়বো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="اللَّهُمَّ زِدْ مَحَبَّتِى لِلَّهِ وَرَسُوْلِهِ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--খাওয়ার সময় এই দু'আ পড়বো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="খাওয়ার সময় এই দু'আ পড়বো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="بسْمِ اللهِ وَبَرَكَةِ اللهِ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- বিসমিল্লাহির রাহমানির রাহীম"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- পরম করুণাময় অসীম দয়ালু আল্লাহর নামে শুরু করছি।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--ঘরে প্রবেশের সময় এই দু'আ পড়বো-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="ঘরে প্রবেশের সময় এই দু'আ পড়বো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- আল্লাহুম্মা ইন্নি আসআলুক খাইরাল মাউলাজি, ওয়া খাইরাল মাখরাজি; বিসমিল্লাহি ওয়ালাজনা, ওয়া বিসমিল্লাহি খারাজনা; ওয়া আলাল্লাহি রাব্বিনা তাওয়াক্কালনা।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- হে আল্লাহ! আমি আপনার নিকট আগমন ও প্রস্থানের কল্যাণ চাই। আপনার নামে আমি প্রবেশ করি ও বের হই এবং আমাদের রব আল্লাহর উপর ভরসা করি।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--        ঘুমাতে যাওয়ার দোয়া-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="ঘুমানোর আগে দোয়া"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="‏ اَللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- আল্লাহুম্মা বিসমিকা আমুতু ওয়া আহইয়া।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :- ‘হে আল্লাহ! আপনারই নামে মরে যাই আবার আপনারই নামে জীবন লাভ করি।’"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--    ঘুম থেকে জাগ্রত হওয়ার দোয়া    -->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="ঘুম থেকে জাগ্রত হওয়ার দোয়া"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ- ‘আলহামদু লিল্লাহিল লাজি আহইয়ানা বা’দা মা আমাতানা ওয়া ইলাইহিন নুশুর।’"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ : ‘সব প্রশংসা ওই আল্লাহর জন্য, যিনি মৃত্যুর পর আমাদের জীবন দান করেছেন এবং তার দিকেই আমাদের পুনরুত্থান।’"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!-- জ্ঞান বৃদ্ধির জন্য এই দু'আ পড়বো  -->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="জ্ঞান বৃদ্ধির জন্য এই দু'আ পড়বো"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="رَبِّ زِدْنِي عِلْمًاُ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ- রাব্বি জিদনি ইলমা।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ :  হে আমার পালনকর্তা! আমার জ্ঞান বৃদ্ধি করুন।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--       বালা-মুসিবত দূর করার-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="বালা-মুসিবত দূর করার দোয়া"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- লা ইলাহা ইল্লা আন্তা সুবহানাকা ইন্নি কুনতু মিনাজ্ জালিমীন।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ : আপনি ব্যতীত আর কোনো উপাস্য নেই। আমি আপনার পবিত্রতা ঘোষণা করছি। অবশ্যই আমি পাপী।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--        দুনিয়া আখিরাতের কল্যানের জন্য দোয়া-->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text=" দুনিয়া আখিরাতের কল্যানের জন্য দোয়া"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارَِ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- রব্বানা আতিনা ফিদ্দুনিয়া হাসানাহ ওয়া ফিল আখিরতি হাসানাহ ওয়া কিনা আজাবান্নার।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ : ‘হে আমাদের প্রতিপালক! আমাদেরকে ইহকালে কল্যাণ দান কর এবং পরকালেও কল্যাণ দান কর। আর আমাদেরকে আগুনের-যন্ত্রণা থেকে রক্ষা কর।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!--   দুই সিজদার মাঝের দোয়া  -->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text=" দুই সিজদার মাঝের দোয়া"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1.8dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:gravity="right"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="اَللّهُمَّ اغْفِرْلِيْ وَارْحَمْنِيْ (وَاجْبُرْنِيْ وَارْفَعْنِيْ) وَاهْدِنِيْ وَعَافِنِيْ وَارْزُقْنِيْ।َ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#0C3E00"
+                        android:text="উচ্চারণ :- আল্লা-হুম্মাগফিরলী অরহামনী অজবুরনী অরফা’নী অহ্‌দিনী ওয়া আ-ফিনী অরযুক্বনী।"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0C3E00"
+                        android:text="অর্থ : হে আল্লাহ! আমাকে ক্ষমা কর, দয়া কর, আমার প্রয়োজন মিটাও, আমাকে উঁচু কর, পথ দেখাও, নিরাপত্তা দাও এবং জীবিকা দান কর।"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

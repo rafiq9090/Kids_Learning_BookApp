@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:rotation="90"
+    android:layout_height="120dp">
+
+        <soup.neumorphism.NeumorphCardView
+            app:neumorph_shapeType="flat"
+            android:layout_width="match_parent"
+            app:neumorph_shadowColorDark="#E2065A09"
+            app:neumorph_shadowColorLight="#E203AA70"
+            app:neumorph_backgroundColor="#EDEFEFEF"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_alphabet_h_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="15dp"
+                    android:text="A"
+                    android:textColor="@color/black"
+                    android:textSize="45sp"
+                    android:textStyle="bold" />
+
+                <!--            <ImageView-->
+                <!--                android:id="@+id/btn_speak"-->
+                <!--                android:src="@drawable/ic_speaker"-->
+                <!--                android:layout_alignParentRight="true"-->
+                <!--                android:layout_margin="3dp"-->
+                <!--                android:clickable="true"-->
+                <!--                android:foreground="?attr/selectableItemBackground"-->
+                <!--                android:layout_width="30dp"-->
+                <!--                android:layout_height="30dp"/>-->
+
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+</LinearLayout>

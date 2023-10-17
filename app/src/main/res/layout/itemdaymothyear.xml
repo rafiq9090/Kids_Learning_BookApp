@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        app:neumorph_backgroundColor="#CBEFEFEF"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_showing_one_item"
+        android:text="1"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/item_showing_tow_item"
+        android:text="1"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+</LinearLayout>

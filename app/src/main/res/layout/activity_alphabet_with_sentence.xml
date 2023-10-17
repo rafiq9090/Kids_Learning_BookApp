@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlphabetWithSentenceActivity"
+    android:background="@drawable/back_imgae_01">
+
+    <TextView
+        android:id="@+id/tv_alphabet"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="84dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shapeType="flat">
+
+        <soup.neumorphism.NeumorphImageView
+            android:id="@+id/img_alphabet_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sorborno" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <TextView
+        android:id="@+id/tv_alphabet_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:text="A for Apple"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView2"
+        app:layout_constraintVertical_bias="0.053" />
+
+
+<!--    Dynamic Design with four Button and Slide Button Sleep for Some Time-->
+<!--    <LinearLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_alphabet_sentence">-->
+
+<!--        <soup.neumorphism.NeumorphCardView-->
+<!--            app:neumorph_backgroundColor="#7AFF9800"-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--           <LinearLayout-->
+<!--              android:weightSum="1"-->
+<!--               android:gravity="center"-->
+<!--               android:orientation="horizontal"-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="match_parent">-->
+
+<!--               <ImageButton-->
+<!--                   android:id="@+id/btn_left_arrow"-->
+<!--                    android:layout_weight=".1"-->
+<!--                   android:src="@drawable/ic_arrow_left"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:background="#00000000"-->
+<!--                   android:layout_height="match_parent"/>-->
+
+<!--               <Button-->
+<!--                   android:layout_margin="2dp"-->
+<!--                   android:layout_weight=".2"-->
+<!--                   android:id="@+id/btn_text_one"-->
+<!--                   android:gravity="center"-->
+<!--                   android:text="A"-->
+<!--                   app:neumorph_backgroundColor="#efefef"-->
+<!--                   android:textSize="40sp"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:layout_height="match_parent"/>-->
+
+<!--               <Button-->
+<!--                   android:layout_margin="2dp"-->
+<!--                   android:layout_weight=".2"-->
+<!--                   android:id="@+id/btn_text_two"-->
+<!--                   android:gravity="center"-->
+<!--                   android:text="A"-->
+<!--                   app:neumorph_backgroundColor="#efefef"-->
+<!--                   android:textSize="40sp"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:layout_height="match_parent"/>-->
+
+<!--               <Button-->
+<!--                   android:layout_margin="2dp"-->
+<!--                   android:layout_weight=".2"-->
+<!--                   android:id="@+id/btn_text_three"-->
+<!--                   android:gravity="center"-->
+<!--                   android:text="A"-->
+<!--                   app:neumorph_backgroundColor="#efefef"-->
+<!--                   android:textSize="40sp"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:layout_height="match_parent"/>-->
+
+<!--               <Button-->
+<!--                   android:layout_margin="2dp"-->
+<!--                   android:layout_weight=".2"-->
+<!--                   android:id="@+id/btn_text_four"-->
+<!--                   android:gravity="center"-->
+<!--                   android:text="A"-->
+<!--                   app:neumorph_backgroundColor="#efefef"-->
+<!--                   android:textSize="40sp"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:layout_height="match_parent"/>-->
+
+<!--               <ImageButton-->
+<!--                   android:id="@+id/btn_right_arrow"-->
+<!--                   android:background="#00000000"-->
+<!--                   android:layout_weight=".1"-->
+<!--                   android:src="@drawable/ic_arrow_right"-->
+<!--                   android:layout_width="0dp"-->
+<!--                   android:layout_height="match_parent"/>-->
+<!--           </LinearLayout>-->
+<!--        </soup.neumorphism.NeumorphCardView>-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="@color/ic_launcher_background"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_alphabet_sentence">-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/h_recycle_view_alphabet"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_alphabet_sentence"-->
+<!--        app:layout_constraintVertical_bias="0.489">-->
+
+<!--        -->
+
+<!--    </LinearLayout>-->
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="120dp"
+        android:layout_height="350dp"
+        android:scrollbars="none"
+        android:gravity="center"
+        android:numColumns="1"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_alphabet_sentence"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_alphabet_sentence"
+        app:layout_constraintVertical_bias="0.63" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

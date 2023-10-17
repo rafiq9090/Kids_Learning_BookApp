@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <soup.neumorphism.NeumorphCardView
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="#CDEFEFEF"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:text="A"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/btn_speak"-->
+<!--                android:src="@drawable/ic_speaker"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:clickable="true"-->
+<!--                android:foreground="?attr/selectableItemBackground"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"/>-->
+
+        </RelativeLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+</LinearLayout>

@@ -1,0 +1,995 @@
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="open">Open </string>
+    <string name="close">Close </string>
+
+    <string-array name="item_Dash">
+        <item>বাংলা</item>
+        <item>ইংরেজী</item>
+        <item>গনিত</item>
+        <item>আরবি</item>
+        <item>দোয়া</item>
+        <item>হাতের লেখা</item>
+    </string-array>
+
+    <string-array name="item_hand_writing">
+        <item>স্বরবর্ণ</item>
+        <item>ব্যঞ্জনবর্ণ</item>
+        <item>Capital Alphabet</item>
+        <item>Small Alphabet</item>
+        <item>হরফ</item>
+        <item>সংখ্যা</item>
+        <item>Number</item>
+    </string-array>
+
+    <string-array name="item_bangla">
+        <item>স্বরবর্ণ</item>
+        <item>ব্যঞ্জনবর্ণ</item>
+        <item>স্বরবর্ণ সহ বাক্য</item>
+        <item>স্বরবর্ণ সহ বাক্য</item>
+        <item>স্বরবর্ণ চর্চা</item>
+        <item>ব্যঞ্জনবর্ণ চর্চা</item>
+        <item>কবিতা</item>
+        <item>দিন</item>
+        <item>মাস</item>
+        <item>ঋতু</item>
+
+    </string-array>
+
+    <string-array name="item_english">
+        <item>Capital Alphabet</item>
+        <item>Small Alphabet</item>
+        <item>Alphabetic Sentence</item>
+        <item>Test Capital Alphabet</item>
+        <item>Test Small Alphabet</item>
+        <item>Days</item>
+        <item>Months</item>
+        <item>Seasons</item>
+    </string-array>
+
+    <string-array name="item_math">
+        <item>সংখ্যা</item>
+        <item>Number</item>
+        <item>সংখ্যা বানান</item>
+        <item>Number spell</item>
+        <item>জোড় সংখ্যা</item>
+        <item>Even Number</item>
+        <item>বিজোড় সংখ্যা</item>
+        <item>Odd Number</item>
+        <item>সংখ্যা পরিক্ষা</item>
+        <item>Number Test</item>
+        <item>জোড় সংখ্যা পরিক্ষা</item>
+        <item>Odd Number Test</item>
+        <item>বিজোড় সংখ্যা পরিক্ষা</item>
+        <item>Even Number Test</item>
+    </string-array>
+
+    <string-array name="item_arabic">
+        <item>হরফ</item>
+        <item>হরফ পরিক্ষা</item>
+        <item>হরফ দিয়ে শব্দ</item>
+    </string-array>
+
+    <string-array name="sorborno">
+        <item>অ</item>
+        <item>আ</item>
+        <item>ই</item>
+        <item>ঈ</item>
+        <item>উ</item>
+        <item>ঊ</item>
+        <item>এ</item>
+        <item>ঐ</item>
+        <item>ও</item>
+        <item>ঔ</item>
+        <item>ঋ</item>
+    </string-array>
+
+    <string-array name="alphabetic_sentence_sorborno">
+        <item>অযু করে নামাজ পড়ো</item>
+        <item>আযান শুনে জামাত ধরো</item>
+        <item>ইলম শেখতে নেইকো লাজ</item>
+        <item>ঈমান শেখা প্রথম কাজ</item>
+        <item>উন্নত করো জীবন সব</item>
+        <item>ঊষা কালে ডাকো রব</item>
+        <item>এক আল্লাহ আমার মানি</item>
+        <item>ঐ শোনা যায় তাঁরই বাণী</item>
+        <item>ওজন করে সদাই করি</item>
+        <item>ঔষধ খেয়ে দু‘আ করি</item>
+        <item>ঋতু হলো আল্লাহর গড়া তাঁরই নামে মোদের পড়া</item>
+    </string-array>
+
+    <string-array name="benjonborno">
+        <item>ক</item>
+        <item>খ</item>
+        <item>গ</item>
+        <item>ঘ</item>
+        <item>ঙ</item>
+        <item>চ</item>
+        <item>ছ</item>
+        <item>জ</item>
+        <item>ঝ</item>
+        <item>ঞ</item>
+        <item>ট</item>
+        <item>ঠ</item>
+        <item>ড</item>
+        <item>ণ</item>
+        <item>ত</item>
+        <item>থ</item>
+        <item>দ</item>
+        <item>ধ</item>
+        <item>ন</item>
+        <item>প</item>
+        <item>ফ</item>
+        <item>ব</item>
+        <item>ভ</item>
+        <item>ম</item>
+        <item>য</item>
+        <item>র</item>
+        <item>ল</item>
+        <item>শ</item>
+        <item>ষ</item>
+        <item>স</item>
+        <item>হ</item>
+        <item>ড়</item>
+        <item>ঢ়</item>
+        <item>য়</item>
+        <item>ৎ</item>
+        <item>ং</item>
+        <item>ঃ</item>
+        <item>ঁ</item>
+        <item>ক্ষ</item>
+    </string-array>
+
+    <string-array name="alphabetic_sentence_benjonbornno">
+        <item>কলম দিয়া লেখা শিখি</item>
+        <item>খাতা-কলম সাথে রাখি </item>
+        <item>গাশত করে নামাজে আনি</item>
+        <item>ঘড়ি  দেখে সময় জানি </item>
+        <item>রঙধনুতে মিষ্টি হাসি  </item>
+        <item>চাদের আলায়ো সবাই খুশি </item>
+        <item>ছল-চাতুরি  ভালো নয় </item>
+        <item>জীবন এতে দুঃখের হয়</item>
+        <item>ঝড়ো হাওয়া বইছে  বাঁকে </item>
+        <item>মিঞা সাহেব আজান হাঁকে </item>
+        <item>টুপি মাথায় চলি সব </item>
+        <item>ঠোঁট দিয়ে জপি রব </item>
+        <item>ডাবে আছে মিষ্টি পানি </item>
+        <item>ঢাকায় শুনি আযান ধ্বনি    </item>
+        <item>স্মরণ কর আখিরাত</item>
+        <item>তাবলীগ কর দিন রাত</item>
+        <item>থলে ভরা সোনা নয়</item>
+        <item>দান করলে ধনি হয়</item>
+        <item> ধর্ম-দাওয়াত শ্রেষ্ট কাজ </item>
+        <item>নিজামুদ্দিন বিশ্ব মারকাজ </item>
+        <item>পাহাড় পর্বত আল্লাহ্‌র শান </item>
+        <item>ফল - ফলাদি তাঁরই  দান</item>
+        <item>বই পড়ে জ্ঞানী হব</item>
+        <item> ভেজাল থেকে দূরে রব </item>
+        <item>মসজিদমুখী জীবন গড়ো</item>
+        <item>যাকাত হলে আদায় করো </item>
+        <item>রাসুলের নামে দুরুদ পড়ো </item>
+        <item>লাশরিক আল্লাহ্‌ বড় </item>
+        <item>শরৎ শেষে শীতের লেশ </item>
+        <item>ষড় ঋতুর বাংলাদেশ  </item>
+        <item>সালাত শেষে তসবি পড় </item>
+        <item>হাদিস পড়ে জীবন গড় </item>
+        <item>বাড়ী গেলে সালাম কর </item>
+        <item>আষাঢ় মাসে ছাতা ধর</item>
+        <item>আয়না দেখে দুআ পড়ো </item>
+        <item>সৎ বন্ধুর হাত ধরো </item>
+        <item>বাংলা ভাষায় মন দাও </item>
+        <item>দুঃখির সেবা করে যাও </item>
+        <item>চাঁদের আলো জুড়ায় প্রানে </item>
+        <item>ক্ষমা কর উদার মনে </item>
+    </string-array>
+
+    <string-array name="alphabet_english_capital">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string-array name="alphabet_english_small">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+
+    <string-array name="alphabetic_sentence_english">
+        <item>Allah (আল্লাহ্‌)  আল্লাহ্‌ </item>
+        <item>Book (বুক) বই </item>
+        <item>Cap (ক্যাপ) টুপি </item>
+        <item>Dome (ডোম) গম্বুজ </item>
+        <item>Eye (আই) চোখ </item>
+        <item>Flag (ফ্ল্যাগ) পতাকা </item>
+        <item>Glass (গ্লাস) গ্লাস </item>
+        <item>Hadith (হাদিস) হাদিস </item>
+        <item>Ice (আইস) বরফ </item>
+        <item>Jack fruit (জ্যাক - ফ্রট) কাঁঠাল </item>
+        <item>Kaba (কাবা) কাবা শরিফ </item>
+        <item>Lily (লিলি) শাপলা </item>
+        <item>Map (ম্যাপ) মানচিত্র </item>
+        <item>Nest (নেস্ট) পাখির বাসা </item>
+        <item>Orange (অরেঞ্জ) কমলা লেবু </item>
+        <item>Pen (পেন) কলম </item>
+        <item>Quran (কোরআন) কোরআন </item>
+        <item>Rose (রোজ) গোলাপ </item>
+        <item>Ship (শিপ) জাহাজ</item>
+        <item>Tomato (টমাটো) টমাটো </item>
+        <item>Uniform (ইউনিফম) পোশাক </item>
+        <item>Village (ভিলেজ) গ্রাম</item>
+        <item>Watch (ওয়াচ) ঘড়ি </item>
+        <item>Xebek (জীবেক) ছোট জাহাজ </item>
+        <item>Yolk (ইয়োক) ডিমের কসুম   </item>
+        <item>Zero (জিরো) শূন্য   </item>
+    </string-array>
+
+    <string-array name="alphabet_arabic">
+        <item>١</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>و</item>
+        <item>ه</item>
+        <item>ء</item>
+        <item>ي</item>
+    </string-array>
+
+    <string-array name="math_sonkha_50">
+        <item>১</item>
+        <item>২</item>
+        <item>৩</item>
+        <item>৪</item>
+        <item>৫</item>
+        <item>৬</item>
+        <item>৭</item>
+        <item>৮</item>
+        <item>৯</item>
+        <item>১০</item>
+        <item>১১</item>
+        <item>১২</item>
+        <item>১৩</item>
+        <item>১৪</item>
+        <item>১৫</item>
+        <item>১৬</item>
+        <item>১৭</item>
+        <item>১৮</item>
+        <item>১৯</item>
+        <item>২০</item>
+        <item>২১</item>
+        <item>২২</item>
+        <item>২৩</item>
+        <item>২৪</item>
+        <item>২৫</item>
+        <item>২৬</item>
+        <item>২৭</item>
+        <item>২৮</item>
+        <item>২৯</item>
+        <item>৩০</item>
+        <item>৩১</item>
+        <item>৩২</item>
+        <item>৩৩</item>
+        <item>৩৪</item>
+        <item>৩৫</item>
+        <item>৩৬</item>
+        <item>৩৭</item>
+        <item>৩৮</item>
+        <item>৩৯</item>
+        <item>৪০</item>
+        <item>৪১</item>
+        <item>৪২</item>
+        <item>৪৩</item>
+        <item>৪৪</item>
+        <item>৪৫</item>
+        <item>৪৬</item>
+        <item>৪৭</item>
+        <item>৪৮</item>
+        <item>৪৯</item>
+        <item>৫০</item>
+        <item>৫১</item>
+        <item>৫২</item>
+        <item>৫৩</item>
+        <item>৫৪</item>
+        <item>৫৫</item>
+        <item>৫৬</item>
+        <item>৫৭</item>
+        <item>৫৮</item>
+        <item>৫৯</item>
+        <item>৬০</item>
+        <item>৬১</item>
+        <item>৬২</item>
+        <item>৬৩</item>
+        <item>৬৪</item>
+        <item>৬৫</item>
+        <item>৬৬</item>
+        <item>৬৭</item>
+        <item>৬৮</item>
+        <item>৬৯</item>
+        <item>৭০</item>
+        <item>৭১</item>
+        <item>৭২</item>
+        <item>৭৩</item>
+        <item>৭৪</item>
+        <item>৭৫</item>
+        <item>৭৬</item>
+        <item>৭৭</item>
+        <item>৭৮</item>
+        <item>৭৯</item>
+        <item>৮০</item>
+        <item>৮১</item>
+        <item>৮২</item>
+        <item>৮৩</item>
+        <item>৮৪</item>
+        <item>৮৫</item>
+        <item>৮৬</item>
+        <item>৮৭</item>
+        <item>৮৮</item>
+        <item>৮৯</item>
+        <item>৯০</item>
+        <item>৯১</item>
+        <item>৯২</item>
+        <item>৯৩</item>
+        <item>৯৪</item>
+        <item>৯৫</item>
+        <item>৯৬</item>
+        <item>৯৭</item>
+        <item>৯৮</item>
+        <item>৯৯</item>
+        <item>১০০</item>
+    </string-array>
+
+    <string-array name="math_sonkha_odd">
+        <item>১</item>
+        <item>৩</item>
+        <item>৫</item>
+        <item>৭</item>
+        <item>৯</item>
+        <item>১১</item>
+        <item>১৩</item>
+        <item>১৫</item>
+        <item>১৭</item>
+        <item>১৯</item>
+        <item>২১</item>
+        <item>২৩</item>
+        <item>২৫</item>
+        <item>২৭</item>
+        <item>২৯</item>
+        <item>৩১</item>
+        <item>৩৩</item>
+        <item>৩৫</item>
+        <item>৩৭</item>
+        <item>৩৯</item>
+        <item>৪১</item>
+        <item>৪৩</item>
+        <item>৪৫</item>
+        <item>৪৭</item>
+        <item>৪৯</item>
+        <item>৫১</item>
+        <item>৫৩</item>
+        <item>৫৫</item>
+        <item>৫৭</item>
+        <item>৫৯</item>
+        <item>৬১</item>
+        <item>৬৩</item>
+        <item>৬৫</item>
+        <item>৬৭</item>
+        <item>৬৯</item>
+        <item>৭১</item>
+        <item>৭৩</item>
+        <item>৭৫</item>
+        <item>৭৭</item>
+        <item>৭৯</item>
+        <item>৮১</item>
+        <item>৮৩</item>
+        <item>৮৫</item>
+        <item>৮৭</item>
+        <item>৮৯</item>
+        <item>৯১</item>
+        <item>৯৩</item>
+        <item>৯৫</item>
+        <item>৯৭</item>
+        <item>৯৯</item>
+    </string-array>
+
+    <string-array name="math_sonkha_even">
+        <item>২</item>
+        <item>৪</item>
+        <item>৬</item>
+        <item>৮</item>
+        <item>১০</item>
+        <item>১২</item>
+        <item>১৪</item>
+        <item>১৬</item>
+        <item>১৮</item>
+        <item>২০</item>
+        <item>২২</item>
+        <item>২৪</item>
+        <item>২৬</item>
+        <item>২৮</item>
+        <item>৩০</item>
+        <item>৩২</item>
+        <item>৩৪</item>
+        <item>৩৬</item>
+        <item>৩৮</item>
+        <item>৪০</item>
+        <item>৪২</item>
+        <item>৪৪</item>
+        <item>৪৬</item>
+        <item>৪৮</item>
+        <item>৫০</item>
+        <item>৫২</item>
+        <item>৫৪</item>
+        <item>৫৬</item>
+        <item>৫৮</item>
+        <item>৬০</item>
+        <item>৬২</item>
+        <item>৬৪</item>
+        <item>৬৬</item>
+        <item>৬৮</item>
+        <item>৭০</item>
+        <item>৭২</item>
+        <item>৭৪</item>
+        <item>৭৬</item>
+        <item>৭৮</item>
+        <item>৮০</item>
+        <item>৮২</item>
+        <item>৮৪</item>
+        <item>৮৬</item>
+        <item>৮৮</item>
+        <item>৯০</item>
+        <item>৯২</item>
+        <item>৯৪</item>
+        <item>৯৬</item>
+        <item>৯৮</item>
+        <item>১০০</item>
+    </string-array>
+
+    <string-array name="number_one_two_fifty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="number_odd">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+        <item>17</item>
+        <item>19</item>
+        <item>21</item>
+        <item>23</item>
+        <item>25</item>
+        <item>27</item>
+        <item>29</item>
+        <item>31</item>
+        <item>33</item>
+        <item>35</item>
+        <item>37</item>
+        <item>39</item>
+        <item>41</item>
+        <item>43</item>
+        <item>45</item>
+        <item>47</item>
+        <item>49</item>
+        <item>51</item>
+        <item>53</item>
+        <item>55</item>
+        <item>57</item>
+        <item>59</item>
+        <item>71</item>
+        <item>73</item>
+        <item>75</item>
+        <item>77</item>
+        <item>79</item>
+        <item>81</item>
+        <item>83</item>
+        <item>85</item>
+        <item>87</item>
+        <item>89</item>
+        <item>91</item>
+        <item>93</item>
+        <item>95</item>
+        <item>97</item>
+        <item>99</item>
+    </string-array>
+
+    <string-array name="number_even">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>52</item>
+        <item>54</item>
+        <item>56</item>
+        <item>58</item>
+        <item>70</item>
+        <item>72</item>
+        <item>74</item>
+        <item>76</item>
+        <item>78</item>
+        <item>80</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>88</item>
+        <item>90</item>
+        <item>92</item>
+        <item>94</item>
+        <item>96</item>
+        <item>98</item>
+        <item>100</item>
+    </string-array>
+
+
+    <!--    // ek theke eksho porjonto banan-->
+    <!--    -->
+    <!--    <string-array name="bangla_math_word">-->
+    <!--        <item>এক - আল্লাহ</item>-->
+    <!--        <item>দুই - জাহান</item>-->
+    <!--        <item>তিন - তাসবিহ</item>-->
+    <!--        <item>চার - খলীফা</item>-->
+    <!--        <item>পাঁচ - নামাজ</item>-->
+    <!--        <item>ছয় - গুণ</item>-->
+    <!--        <item>সাত - আসমান</item>-->
+    <!--        <item>আট - বেহেশত</item>-->
+    <!--        <item>নয় - গ্রহ</item>-->
+    <!--        <item>দশ - দিক</item>-->
+    <!--    </string-array>-->
+
+    <!--    // bangla_chondo-->
+    <!--    -->
+    <!--    <string-array name="numeric_chondo">-->
+    <!--        <item>এক আল্লাহ মোদের রব/nতাঁরই দাওয়াত দিবো সব ।</item>-->
+    <!--        <item>আমরা মানি দুই কাল/nইহকাল আর পরকাল </item>-->
+    <!--        <item>তিন বার ধৌত করো /nযখন তুমি অযু করো ।</item>-->
+    <!--        <item>চার রাকাত নামাজ পড়ো/nদুইয়ের পরে বৈঠক করো।</item>-->
+    <!--        <item>পাঁচ ওয়াক্ত নামাজ পড়ো/nনামাজ শেষে দু'আ করো ।</item>-->
+    <!--        <item>ছয়টি গুণ হাসিল করো/n দ্বীনি জীবন গঠন করো ।</item>-->
+    <!--        <item>সাত তবক আসমান/nমহান আল্লাহর কত শান ।</item>-->
+    <!--        <item>আট বেহেশত যাবে তারা/nদ্বীনের দাওয়াত দিবে যারা।</item>-->
+    <!--        <item>নয়টি গ্রহ ধাবমান/nআল্লাহর হুকুম চলমান।</item>-->
+    <!--        <item>দশটি দিক জানি সবে/n কেবলা শুধু একটি তবে ।</item>-->
+    <!--    </string-array>-->
+
+    <string-array name="bangla_poem_des">
+    <item>
+        সকালে উঠিয়া আমি \n মনে মনে বলি, \n সারাদিন আমি যেন \n ভাল হয়ে চলি।
+    </item>
+
+        <item>
+        ভোর হলো দোর খোল \n খুকুমণি উঠরে,\n ঐ ডাকে জুঁই শাখে, \n ফুল-খুকি ছোট রে!
+    </item>
+
+        <item>
+      লেখাপড়া করবো আমি \n মানুষ হবার জন্য, \n তবেই আমি সুখী হবো \n জগত হবে ধন্য।
+    </item>
+
+        <item>
+       পায়রা ডাকে বাকবাকুম \n বলছে যেন রাব্বাকুম\nএক সূরেরে বলছে যেন \n আসসালাম-আলাইকুম।
+    </item>
+        <item>
+    গোলাম মোস্তফা \n এই করিণু পণ মোরা \n এই করিণু পণ \n ফুলের মতো গড়াবো মোরা \n মোদের এ জীবন।
+</item>
+        <item>
+    বৃষ্টি পড়ে টাপুর টুপ \n সবাই করো একটু চুপ,\n সোনামনির চোখে ঘুম \n হাজার পরী দিচ্ছে চুমু\nফেরেশতারা\nআসেসোনামনিহাসে।
+</item>
+    </string-array>
+
+    <string-array name="bangla_poem_title">
+    <item>
+        সংকল্প
+    </item>
+
+        <item>
+        প্রভাতী
+    </item>
+
+        <item>
+        লেখাপড়া
+    </item>
+
+        <item>
+        পায়রা
+    </item>
+        <item>
+    শিশুর পণ
+</item>
+        <item>
+    বৃষ্টি পড়ে টাপুর টুপ
+</item>
+    </string-array>
+
+    <!--    <string-array name="english_poem_title">-->
+    <!--        <item>Thank you Allah</item>-->
+    <!--        <item>Let us Pray</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="english_poem_des">-->
+    <!--        <item>Thank you Allah For the world so sweet, Thank you Allah For the food we eat. আল্লাহ তোমায় ধন্যবাদ সুন্দর পৃথিবীর জন্য , আল্লাহ তোমায় ধন্যবাদ রিজিক দু'আর জন্য।</item>-->
+    <!--        <item>Let us Pray To Load of all, He loves all Call him call এসো দু'আ করি আল্লাহ মহান স্রষ্টা সবার মালিক যিনি ভবে , মোদের ভালোবাসেন তিনি তাঁকেই ডাকো সবে।</item>-->
+    <!--    </string-array>-->
+
+
+    <string-array name="sonkha_banan">
+        <item>এক</item>
+        <item>দুই</item>
+        <item>তিন</item>
+        <item>চার</item>
+        <item>পাঁচ</item>
+        <item>ছয়</item>
+        <item>সাত</item>
+        <item>আট</item>
+        <item>নয়</item>
+        <item>দশ</item>
+        <item>এগারো</item>
+        <item>বারো</item>
+        <item>তেরো</item>
+        <item>চোদ্দ</item>
+        <item>পনেরো</item>
+        <item>ষোল</item>
+        <item>সতেরো</item>
+        <item>আঠারো</item>
+        <item>উনিশ</item>
+        <item>কুড়ি</item>
+        <item>একুশ</item>
+        <item>বাইশ</item>
+        <item>তেইশ</item>
+        <item>চব্বিশ</item>
+        <item>পঁচিশ</item>
+        <item>ছাব্বিশ</item>
+        <item>সাতাশ</item>
+        <item>আটাশ</item>
+        <item>ঊনত্রিশ</item>
+        <item>ত্রিশ</item>
+        <item>একত্রিশ</item>
+        <item>বত্রিশ</item>
+        <item>তেত্রিশ</item>
+        <item>চৌত্রিশ</item>
+        <item>পঁয়ত্রিশ</item>
+        <item>ছত্রিশ</item>
+        <item>সাঁইত্রিশ</item>
+        <item>আটত্রিশ</item>
+        <item>ঊনচল্লিশ</item>
+        <item>চল্লিশ</item>
+        <item>একচল্লিশ</item>
+        <item>বিয়াল্লিশ</item>
+        <item>তেতাল্লিশ</item>
+        <item>চুয়াল্লিশ</item>
+        <item>পঁয়তাল্লিশ</item>
+        <item>ছেচল্লিশ</item>
+        <item>সাতচল্লিশ</item>
+        <item>আটচল্লিশ</item>
+        <item>ঊনপঞ্চাশ</item>
+        <item>পঞ্চাশ</item>
+        <item>একান্ন</item>
+        <item>বাহান্ন</item>
+        <item>তিপ্পান্ন</item>
+        <item>চুয়ান্ন</item>
+        <item>পঞ্চান্ন</item>
+        <item>ছাপ্পান্ন</item>
+        <item>সাতান্ন</item>
+        <item>আটান্ন</item>
+        <item>ঊনষাট</item>
+        <item>ষাট</item>
+        <item>একষট্টি</item>
+        <item>বাষট্টি</item>
+        <item>তেষট্টি</item>
+        <item>চৌষট্টি</item>
+        <item>পঁয়ষট্টি</item>
+        <item>ছেষট্টি</item>
+        <item>সাতষট্টি</item>
+        <item>আটষট্টি</item>
+        <item>ঊনসত্তর</item>
+        <item>সত্তর</item>
+        <item>একাত্তর</item>
+        <item>বাহাত্তর</item>
+        <item>তিয়াত্তর</item>
+        <item>চুয়াত্তর</item>
+        <item>পঁচাত্তর</item>
+        <item>ছিয়াত্তর</item>
+        <item>সাতাত্তর</item>
+        <item>আটাত্তর</item>
+        <item>ঊনআশি</item>
+        <item>আশি</item>
+        <item>একাশি</item>
+        <item>বিরাশি</item>
+        <item>তিরাশি</item>
+        <item>চুরাশি</item>
+        <item>পঁচাশি</item>
+        <item>ছিয়াশি</item>
+        <item>সাতাশি</item>
+        <item>অষ্টআশি</item>
+        <item>ঊননব্বই</item>
+        <item>নব্বই</item>
+        <item>একানব্বই</item>
+        <item>বিরানব্বই</item>
+        <item>তিরানব্বই</item>
+        <item>চুরানব্বই</item>
+        <item>পঁচানব্বই</item>
+        <item>ছিয়ানব্বই</item>
+        <item>সাতানব্বই</item>
+        <item>আটানব্বই</item>
+        <item>নিরানব্বই</item>
+        <item>একশত</item>
+    </string-array>
+
+    <string-array name="number_banan">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six </item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Eleven</item>
+        <item>Twelve</item>
+        <item>Thirteen</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>Eighteen</item>
+        <item>Nineteen </item>
+        <item>Twenty</item>
+    </string-array>
+
+    <string-array name="arabic_word">
+        <item> بيت الله</item>
+
+    </string-array>
+
+    <string-array name="day_bangla">
+        <item>শনিবার</item>
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+    </string-array>
+    <string-array name="day_english">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="month_bangla">
+        <item>জানুয়রি</item>
+        <item>ফেব্রুয়ারি</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>অগাস্ট</item>
+        <item>সেপ্টেম্বর</item>
+        <item>অক্টোবর</item>
+        <item>নভেম্বর</item>
+        <item>ডিসেম্বর</item>
+    </string-array>
+    <string-array name="month_english">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="seasons_bangla">
+        <item>গ্রীষ্মকাল</item>
+        <item>বর্ষাকাল</item>
+        <item>শরৎকাল</item>
+        <item>হেমন্তকাল</item>
+        <item>শীতকাল</item>
+        <item>বসন্তকাল</item>
+
+    </string-array>
+
+    <string-array name="seasons_english">
+        <item>Summer</item>
+        <item>Rainy</item>
+        <item>Autumn</item>
+        <item>Late Autumn</item>
+        <item>Winter</item>
+        <item>Spring</item>
+
+    </string-array>
+
+
+
+
+</resources>
+
